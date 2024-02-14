@@ -1,0 +1,30 @@
+### get all tasks
+GET http://localhost:3000/
+
+### create task
+POST http://localhost:3000/create
+Content-Type: application/json
+
+{
+    "title": "Poner el lavavajillas",
+    "completed": false
+}
+
+
+
+### get task by id
+GET http://localhost:3000/id/65cd1f12ce02d078d43d79ab
+
+### mark task completed
+PUT http://localhost:3000/markAsCompleted/65cd1f2bce02d078d43d79ad
+
+### change title
+PUT http://localhost:3000/id/65cd1f06ce02d078d43d79a9
+Content-Type: application/json
+
+{
+    "title": "Sacar la basura"
+}
+
+### deteled task
+DELETE http://localhost:3000/id/65cd1ef6ce02d078d43d79a5
