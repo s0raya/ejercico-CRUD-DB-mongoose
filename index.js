@@ -7,7 +7,7 @@ const PORT = 3000;
 
 app.disable('x-powered-by');
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+
 
 app.use('/', routes);
 

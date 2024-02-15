@@ -6,11 +6,9 @@ POST http://localhost:3000/create
 Content-Type: application/json
 
 {
-    "title": "Poner el lavavajillas",
+    "title": "Tarea-TASKCONTROLLER5",
     "completed": false
 }
-
-
 
 ### get task by id
 GET http://localhost:3000/id/65cd1f12ce02d078d43d79ab
@@ -19,7 +17,7 @@ GET http://localhost:3000/id/65cd1f12ce02d078d43d79ab
 PUT http://localhost:3000/markAsCompleted/65cd1f2bce02d078d43d79ad
 
 ### change title
-PUT http://localhost:3000/id/65cd1f06ce02d078d43d79a9
+PUT http://localhost:3000/id/65cd1efece02d078d43d79a7
 Content-Type: application/json
 
 {

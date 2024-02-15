@@ -1,13 +1,20 @@
 # Node.js
 node_modules/
 
-# Archivo de bloqueo de paquetes
-
+# npm
+*.lock
+npm-debug.log*  
+yarn-debug.log*  
+yarn-error.log*  
+package-lock.jso
 package-lock.json
 
-# Logs
-logs/
-*.log
+# Logs and databases  
+*.log  
+*.sqlite  
+*.sqlite3  
+*.db  
+*.sql
 
 # Dependencias de desarrollo
 .env
@@ -16,9 +23,11 @@ logs/
 .env.production
 
 # Archivos de construcción
-build/
-dist/
-out/
+/build/  
+/dist/  
+/out/  
+/public/  
+/build-output/
 
 # Archivos de configuración de editor
 .vscode/
