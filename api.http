@@ -14,10 +14,10 @@ Content-Type: application/json
 GET http://localhost:3000/id/65cd1f12ce02d078d43d79ab
 
 ### mark task completed
-PUT http://localhost:3000/markAsCompleted/65cd1f2bce02d078d43d79ad
+PUT http://localhost:3000/markAsCompleted/65cd1f12ce02d078d43d79ab
 
 ### change title
-PUT http://localhost:3000/id/65cd1efece02d078d43d79a7
+PUT http://localhost:3000/id/65ce7b8968337fa8c7eb71c1
 Content-Type: application/json
 
 {
@@ -25,4 +25,4 @@ Content-Type: application/json
 }
 
 ### deteled task
-DELETE http://localhost:3000/id/65cd1ef6ce02d078d43d79a5
+DELETE http://localhost:3000/id/65ce7e4868337fa8c7eb71c4
